@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.ntkduy1604.airflitejson.MainActivity">
+
+    <TextView
+        android:id="@+id/json_get"
+        style="@style/CategoryStyle"
+        android:background="@color/json_get"
+        android:text="@string/category_json_get" />
+
+    <TextView
+        android:id="@+id/json_get_device"
+        style="@style/CategoryStyle"
+        android:background="@color/json_get_device"
+        android:text="@string/category_json_get_device" />
+
+    <TextView
+        android:id="@+id/json_post"
+        style="@style/CategoryStyle"
+        android:background="@color/json_post"
+        android:text="@string/category_json_post" />
+
+    <TextView
+        android:id="@+id/json_put"
+        style="@style/CategoryStyle"
+        android:background="@color/json_put"
+        android:text="@string/category_json_put" />
+
+    <TextView
+        android:id="@+id/json_delete"
+        style="@style/CategoryStyle"
+        android:background="@color/json_delete"
+        android:text="@string/category_json_delete" />
+</LinearLayout>
